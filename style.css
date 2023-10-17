@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.button-wrapper {
+    margin-bottom: 20px;
+}
+
+.button-wrapper > button {
+    width: 150px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s linear;
+}
+
+.square-blue {
+    background-color: blue;
+}
+
+.square-rotated {
+    transform: rotate(135deg);
+}
+
+.square-bordered {
+    border-radius: 20px;
+}
+
+.square-hidden {
+    opacity: 0;
+}
